@@ -125,7 +125,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-DEBUG = False
+DEBUG = True
 
 import os
 if 'WEBSITE_HOSTNAME' in os.environ: # Running on Azure
